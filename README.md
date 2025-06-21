@@ -80,8 +80,9 @@ sudo xcode-select -s <PATH_TO_XCODE>
 
 Install [Swiftly](https://github.com/swiftlang/swiftly), [Swift](https://www.swift.org), and [Static Linux SDK](https://www.swift.org/documentation/articles/static-linux-getting-started.html):
 
+
 ```bash
-make cross-prep
+make cross-prep # inside  the repository directory
 ```
 
 If you use a custom terminal application, you may need to move this command from `.zprofile` to `.zshrc` (replace `<USERNAME>`):
